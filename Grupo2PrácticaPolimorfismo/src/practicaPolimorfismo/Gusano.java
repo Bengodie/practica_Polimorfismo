@@ -40,6 +40,16 @@ public class Gusano extends Invertebrado{
     }
     
     @Override
+     public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos gusanos se reproducen sexualmente mediante ovulos y "
+                + "espematozoides,"
+                + "o asexualmente ya que algunos se reproducen a si mismos";
+    }
+    
+    @Override
      public String toString(){
         return super.toString()
                 +"\nEspecie: "+this.getEspecie()

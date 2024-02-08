@@ -40,6 +40,14 @@ public class Artropodo extends Invertebrado{
     }
     
     @Override
+    public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos artropodos somos oviparos u ovoviviparos, nos reproducimos mediante huevos";
+    }
+    
+    @Override
      public String toString(){
         return super.toString()
                 +"\nEspecie: "+this.getEspecie()

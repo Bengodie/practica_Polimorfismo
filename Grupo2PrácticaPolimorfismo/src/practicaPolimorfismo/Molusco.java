@@ -40,6 +40,16 @@ public class Molusco extends Invertebrado{
     }
     
     @Override
+     public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos moluscos se reproducen sexualmente liberando ovulos y "
+                + "espermatozoides al agua";
+    }
+    
+    
+    @Override
      public String toString(){
         return super.toString()
                 +"\nEspecie: "+this.getEspecie()
