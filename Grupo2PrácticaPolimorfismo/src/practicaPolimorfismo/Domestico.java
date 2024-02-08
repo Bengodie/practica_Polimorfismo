@@ -9,7 +9,8 @@ package practicaPolimorfismo;
  * @author indir
  */
 public interface Domestico {
-    public abstract int asignarPeso();
-     public abstract void  ladrar();
-      public abstract void perseguir();
+    public abstract int elegirRaza();
+     public abstract void  jugar();
+      public abstract String nombrar();
+       public abstract void  mostrar();
 }
