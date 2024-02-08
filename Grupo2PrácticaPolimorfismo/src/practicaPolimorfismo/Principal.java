@@ -4,6 +4,9 @@
  */
 package practicaPolimorfismo;
 
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Diego
@@ -59,7 +62,15 @@ public class Principal {
         System.out.println("\n\n-------Reptil-------");
         Reptil r1= new Reptil(12,"Chicho","Reptil", "Omnivoro","Iguana" );
         System.out.print("Datos del Reptil: "+r1.toString());
-        /////////////////////////////////////////////
+        ///////////////--------------interface-------------/////////////////////
+         Domestico p = new Raza_Perro();
+         p.elegirRaza();
+        
+        p.mostrar();
+        JOptionPane.showMessageDialog(null, "El  nombre del perro es: "+ p.nombrar(), "Nombrarlo", JOptionPane.PLAIN_MESSAGE, 
+                new  ImageIcon("src/img/nombrar.png"));
+        p.jugar();
+        
         
     }
     
