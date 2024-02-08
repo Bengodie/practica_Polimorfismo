@@ -38,14 +38,19 @@ public class Anfibio extends Vertebrado{
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+      public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos anfibios se reproducen por medio de huevos. ";
+    
     
     @Override
     public String toString(){
         return super.toString()
                 +"\nEspecie: "+this.getEspecie()
                 +"\nDieta: "+this.getDieta();
-    }
-    
-    
+        }
         
- }
+    }
+}

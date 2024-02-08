@@ -8,8 +8,9 @@ package practicaPolimorfismo;
  *
  * @author Diego
  */
-public class Vertebrado extends Animal{
+public abstract class Vertebrado extends Animal{
    private String claseV;
+   private String reproduccion;
 
     public Vertebrado() {
         this.claseV = "";
@@ -28,10 +29,12 @@ public class Vertebrado extends Animal{
         this.claseV = claseV;
     }
    
+    public abstract String getReprod();
+    
     @Override
         public String toString(){
             return super.toString()
-                +"\nClase: " +this.getClaseV();
+                +"\nClase de vertebrado: " +this.getClaseV();
     }
    
 }

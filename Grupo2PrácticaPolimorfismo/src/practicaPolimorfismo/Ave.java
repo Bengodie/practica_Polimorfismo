@@ -38,6 +38,12 @@ public class Ave extends Vertebrado{
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+      public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos aves se reproducen machos y hembras deben aparearse para que ocurra la fertilización.";
+    
     
     @Override
      public String toString(){
@@ -45,4 +51,5 @@ public class Ave extends Vertebrado{
                 +"\nEspecie: "+this.getEspecie()
                 +"\nDieta: "+this.getDieta();
     }
+  }   
 }

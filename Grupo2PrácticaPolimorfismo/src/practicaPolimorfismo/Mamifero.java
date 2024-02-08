@@ -38,6 +38,12 @@ public class Mamifero extends Vertebrado{
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+      public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos gusanos se reproducen produce un tipo específico de gameto (ovocito y espermatozoide) "
+                + "y se requiere la fusión de ambos para generar a un nuevo individuo. ";
     
     @Override
      public String toString(){
@@ -45,5 +51,5 @@ public class Mamifero extends Vertebrado{
                 +"\nEspecie: "+this.getEspecie()
                 +"\nDieta: "+this.getDieta();
     }
-    
+  } 
 }

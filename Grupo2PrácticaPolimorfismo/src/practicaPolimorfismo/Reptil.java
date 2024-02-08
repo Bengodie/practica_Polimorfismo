@@ -38,6 +38,11 @@ public class Reptil extends Vertebrado{
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+      public String getReprod(){
+        return super.toString()
+                +"\nEspecie: "+this.getEspecie()
+                +"\nDieta: "+this.getDieta()
+                +"\nLos reptiles se reproducen mediante huevos (ovíparos), en la mayoría de los casos. ";
     
     @Override
      public String toString(){
@@ -45,4 +50,5 @@ public class Reptil extends Vertebrado{
                 +"\nEspecie: "+this.getEspecie()
                 +"\nDieta: "+this.getDieta();
     }
+  }      
 }
