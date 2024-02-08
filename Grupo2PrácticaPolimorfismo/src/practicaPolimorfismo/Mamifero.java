@@ -44,12 +44,12 @@ public class Mamifero extends Vertebrado{
                 +"\nDieta: "+this.getDieta()
                 +"\nLos gusanos se reproducen produce un tipo específico de gameto (ovocito y espermatozoide) "
                 + "y se requiere la fusión de ambos para generar a un nuevo individuo. ";
-    
+      }
     @Override
      public String toString(){
         return super.toString()
                 +"\nEspecie: "+this.getEspecie()
                 +"\nDieta: "+this.getDieta();
     }
-  } 
+  
 }

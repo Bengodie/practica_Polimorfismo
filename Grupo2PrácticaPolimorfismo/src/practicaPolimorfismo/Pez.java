@@ -43,7 +43,7 @@ public class Pez extends Vertebrado{
                 +"\nEspecie: "+this.getEspecie()
                 +"\nDieta: "+this.getDieta()
                 +"\nLos peces se reproducen reproducción ovípara, es decir, expulsando huevos al exterior. ";
-    
+      }
     @Override
      public String toString(){
         return super.toString()
@@ -51,4 +51,4 @@ public class Pez extends Vertebrado{
                 +"\nDieta: "+this.getDieta();
     }
   }         
-}
+

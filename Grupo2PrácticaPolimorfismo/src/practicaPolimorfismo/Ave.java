@@ -44,7 +44,7 @@ public class Ave extends Vertebrado{
                 +"\nDieta: "+this.getDieta()
                 +"\nLos aves se reproducen machos y hembras deben aparearse para que ocurra la fertilización.";
     
-    
+      }
     @Override
      public String toString(){
         return super.toString()
@@ -52,4 +52,4 @@ public class Ave extends Vertebrado{
                 +"\nDieta: "+this.getDieta();
     }
   }   
-}
+

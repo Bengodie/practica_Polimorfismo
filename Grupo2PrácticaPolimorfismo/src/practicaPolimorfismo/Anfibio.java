@@ -44,7 +44,7 @@ public class Anfibio extends Vertebrado{
                 +"\nDieta: "+this.getDieta()
                 +"\nLos anfibios se reproducen por medio de huevos. ";
     
-    
+      }
     @Override
     public String toString(){
         return super.toString()
@@ -53,4 +53,3 @@ public class Anfibio extends Vertebrado{
         }
         
     }
-}
