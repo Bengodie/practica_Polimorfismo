@@ -21,10 +21,6 @@ public class Principal {
         System.out.println("\n-------Animal-------");
         Animal  a1= new Animal(54,"Teresa");
         System.out.println("\n: "+a1.toString());
-        ///////////////////////////////////////////////
-        //System.out.println("\n\n-------Vertebrado-------");
-        //Vertebrado v1= new Vertebrado(45,"Balu","Mamifero");
-        //System.out.print("Datos del vertebrado: "+v1.toString());//
         /////////////////////////////////////////////
         System.out.println("\n\n-------Mamifero-------");
         Mamifero m1= new Mamifero(15,"RinTinTin","Mamifero", "Omnivoro","Perro" );
